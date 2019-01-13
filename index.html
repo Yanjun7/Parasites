@@ -2,17 +2,7 @@
 <html lang="en">
 <head>
 
-<div>
-var static = require('node-static');
-var file = new static.Server();
-require('http').createServer(function(request, response) {
-  request.addListener('end', function() {
-    file.serve(request, response);
-  }).resume();
-}).listen(process.env.PORT || 3000);
-</div>
 
-  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -124,8 +114,16 @@ require('http').createServer(function(request, response) {
   </div>
 
         
-
-  
+<!-- <div>
+var static = require('node-static');
+var file = new static.Server();
+require('http').createServer(function(request, response) {
+  request.addListener('end', function() {
+    file.serve(request, response);
+  }).resume();
+}).listen(process.env.PORT || 3000);
+</div>
+   -->
 
 
     
