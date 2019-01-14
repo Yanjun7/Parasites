@@ -1,9 +1,8 @@
 ## Project 2: Giardiasis (Giardia Infection)
-By Melinda Wiley, Patricia Escalante, Yanjun Zhou
-<br>
-The George Washington University Data Analytics and Data Visualization Boot Camp
-04 January 2019
-<br>
+GW Data Analytics and Data Visualization Boot Camp, Instructor: Dan Wood<br>
+Authors: Melinda Wiley, Patricia Escalante, Yanjun Zhou<br>
+14 January 2019<br>
+
 <p align="center">
 <img width="461" alt="giardia1" src="https://user-images.githubusercontent.com/41865917/50729052-2e3e8700-1101-11e9-8c32-db152d1b875e.PNG">
 <img width="228" alt="giardia2" src="https://user-images.githubusercontent.com/41865917/50729053-2e3e8700-1101-11e9-90ed-cccb0fa40fe3.PNG">
