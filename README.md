@@ -13,20 +13,25 @@ The George Washington University Data Analytics and Data Visualization Boot Camp
 </p>
 
 <br>
-Proposal<br>
-Project 2 will utilize Python Flask powered RESTful API, HTML/CSS, JS, one database (MySQL or SQLite) with user-driver interactions. Data munging and data visualization utilizing CDC provided dataset on Giardiasis (Giardia) from the National Notifiable Diseases Surveillance System (NNDSS). We narrowed the field to this disease caused by parasites to focus on building out our site with a more manageable dataset. Giardia csv and US population by State csv will be read into a SQL database. We will scrape the index from https://www.cdc.gov/parasites/az/index.html#s to pull the list of parasites; working these aspects in jupyter notebook with BeautifulSoup. 
-<br><br>
-Initial layout will include US maps, chart, and possibly some links to the CDC site for more information. The visualizations will show infection cases over the years through mapping and a bar/bubble/line chart with some rad transitions. The 1 JS library not previously covered will be to be determined. 
-<br><br>
-Resources, so far: https://www.cdc.gov/parasites/az/index.html#s, https://data.cdc.gov, https://www.cdc.gov/parasites/giardia/index.html
-<br><br>
+Project 2 Giardia Infection cases reported by the CDC between 2014 and 2018. This project utilizes HTML/CSS, JS, two datasets and user-driver interactions. Data munging and data visualization utilizing CDC provided dataset on Giardiasis (Giardia) from the National Notifiable Diseases Surveillance System (NNDSS). Along with data information on state population. We narrowed the field to this disease caused by parasites to focus on building out our site with a more manageable dataset. Giardia csv and US population by State csv will be read into a SQL database. We will scrape the index from https://www.cdc.gov/parasites/az/index.html#s to pull the list of parasites; working these aspects in jupyter notebook with BeautifulSoup. <br>
+
+Initial layout will include US maps, chart, and possibly some links to the CDC site for more information. The visualizations will show infection cases over the years through mapping and a bar/bubble/line chart with some rad transitions. The 1 JS library not previously covered everpolate.browserified.min. <br>
+
+Resources: https://www.cdc.gov/parasites/az/index.html#s, https://data.cdc.gov, https://www.cdc.gov/parasites/giardia/index.html; 
+https://www.census.gov/topics/population.html <br>
+
 Topic: Giardiasis (Giardia Infection)Dataset: National Notifiable Diseases Surveillance System (NNDSS)<br>
-Git repo: https://github.com/Yanjun7/Parasites 
-<br>
-<br>sketch of the design:<br>
-<br>Line charts with transitions on raw data, per capita data, and possibly regional data<br>
-	X=time; y=# of Infections<br>
-<br>Bubble chart over time x=population, y=# of infections<br>
-D3 charting with transitions and interactions <br>
+Git repo: https://github.com/Yanjun7/Parasites <br>
+JS Library: everpolate.browserified.min<br>
+
+Design: <br>
+•	Home page: informational page
+•	Chart drop down links with D3 charting with transitions and interactions 
+o	Line charts with transitions on raw data, per capita data, and regional data
+	X=time; y=# of Infections
+o	Bubble chart over time (2014-2018) x=giardia infection cases, y= giardia infection cases/population
+
+
+
     
-# Parasites
+
