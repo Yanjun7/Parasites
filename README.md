@@ -25,10 +25,10 @@ Git repo: https://github.com/Yanjun7/Parasites <br>
 JS Library: everpolate.browserified.min<br>
 
 Design: <br>
-•	Home page: informational page
-•	Chart drop down links with D3 charting with transitions and interactions 
+•	Home page: informational page<br>
+•	Chart drop down links with D3 charting with transitions and interactions <br>
 o	Line charts with transitions on raw data, per capita data, and regional data
-	X=time; y=# of Infections
+	X=time; y=# of Infections<br>
 o	Bubble chart over time (2014-2018) x=giardia infection cases, y= giardia infection cases/population
 
 
